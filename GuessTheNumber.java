@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class GuessTheNumber {
 
     public static void main(String[] args) {
-        System.out.println(guessNumber(2500, new String[]{"X+-10", "X--5", "X*5", "X^2"}));  // Output: 5
+        System.out.println(guessNumber(2500, new String[]{"X+-10", "X-5", "X*5", "X^2"}));  // Output: 5
         System.out.println(guessNumber(1000, new String[]{"X*5", "X/0", "X^3"}));  // Output: -1
         System.out.println(guessNumber(10, new String[]{"X*5", "X*0", "X+10"}));  // Output: -2
         System.out.println(guessNumber(617283948, new String[]{"X+5", "X-0", "X+1", "X/2", "X^1"}));  // Output: 1234567890
