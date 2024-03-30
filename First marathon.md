@@ -1,4 +1,3 @@
-	You have to solve two problem statement and write there algorithms and discuss with the interviewer. 								
 	 e.g.  You are participate in N KM long marathon it's your first marathon so your speed decrease by 10% of current speed after everykm.								
 	There are many booster dose station available after some km which will increases your current spdee by some % but for that you have to wait for some minutes for your turn.   								
 	inputs : 1.length of marathon in km								
