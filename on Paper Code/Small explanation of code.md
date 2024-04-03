@@ -14,7 +14,7 @@
      - Check for conflicts with already scheduled sessions:
        - For each already scheduled session:
          - Check if the new session overlaps with it.
-         - And for check that overlaps or note simply check that is currentSession's starting time lies between the already scheduled sessions starting time and ending time. 
+         - And for check that overlaps or not simply check that is currentSession's starting time lies between the already scheduled sessions starting time and ending time. 
          - If there's an overlap, mark `canAttend` as false and break the loop.
      - If there are no conflicts (`canAttend` is true), add the session to the scheduled list and increment the count of attended sessions.
 
